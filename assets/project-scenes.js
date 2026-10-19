@@ -5,7 +5,7 @@ const assetRoot=new URL('.',document.currentScript.src);
 function refresh(){document.dispatchEvent(new Event('project-data-ready'));}
 fetch(new URL('tomasulo-trace.json',assetRoot)).then(r=>{if(!r.ok)throw Error();return r.json();}).then(r=>{data.trace=r;refresh();}).catch(()=>{});
 fetch(new URL('pedestrian-detections.json',assetRoot)).then(r=>{if(!r.ok)throw Error();return r.json();}).then(r=>{data.people=r;refresh();}).catch(()=>{});
-const photo=new Image();photo.onload=refresh;photo.src='https://raw.githubusercontent.com/trivik261/Pedestrian_Distance_Classifier/main/sample/image34.jpg';
+const photo=new Image();photo.onload=refresh;photo.src='https://raw.githubusercontent.com/Sharan-S-K/Pedestrian_Distance_Classifier/main/sample/image34.jpg';
 const colors=['#bdf1a6','#9acbd9','#f3cf91','#e79d9d'];
 function text(ctx,t,x,y,size=12,color='#dce9dd'){ctx.fillStyle=color;ctx.font=`${size}px monospace`;ctx.textAlign='center';ctx.fillText(t,x,y);}
 function line(ctx,x1,y1,x2,y2,color='#698572'){ctx.strokeStyle=color;ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(x1,y1);ctx.lineTo(x2,y2);ctx.stroke();}

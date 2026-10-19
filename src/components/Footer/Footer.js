@@ -21,7 +21,7 @@ const Footer = () => {
       <CompanyContainer>
         <Slogan>Sharan SK</Slogan>
       </CompanyContainer>
-      <SocialIcons href="https://github.com/trivik261">
+      <SocialIcons href="https://github.com/Sharan-S-K">
        <AiFillGithub size="3rem"/>
       </SocialIcons>
       <SocialIcons href="https://www.linkedin.com/in/sharan-sk/">
