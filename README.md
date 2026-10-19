@@ -1,4 +1,4 @@
-# Sharan Karuppannan — Research & Engineering Portfolio
+# Sharan SK — Research & Engineering Portfolio
 
 [Visit the portfolio](https://sharan-s-k.github.io/Portfolio_Website/)
 
